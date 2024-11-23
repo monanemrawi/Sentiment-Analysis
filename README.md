@@ -56,8 +56,8 @@ This project builds a sentiment analysis model using GloVe word embeddings and l
 
 ### Dependencies:
 Ensure the following packages are installed:
-`numpy`, `pandas`, `matplotlib`, `gensim`
-Install via:
+</br>`numpy`, `pandas`, `matplotlib`, `gensim`
+</br>Install via:
 
 ```bash
 pip install numpy pandas matplotlib gensim
@@ -75,5 +75,5 @@ Open the Jupyter Notebook version for step-by-step explanations and interactive 
 - Results Summary
 
 Best learning rate: 0.01
-Best batch size: 16
-Test accuracy: 0.7875
+</br>Best batch size: 16
+</br>Test accuracy: 0.7875
