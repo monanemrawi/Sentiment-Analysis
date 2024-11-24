@@ -25,29 +25,29 @@ This project builds a sentiment analysis model using GloVe word embeddings and l
 
 ## Questions Answered
 
-#### Q1: Gradient Descent Convergence and Learning Rate Analysis (20 pts)
+#### Q1: Gradient Descent Convergence and Learning Rate Analysis 
 - Task: Experiment with learning rates (10000, 1000, 100, 10, 1, 0.01, 0.001, 0.0001, 0.00001).
 - Analysis: Reports overflow cases, convergence behavior, training, and validation accuracy for each learning rate in a table.
 - Additional Experiment: Extends the number of iterations to 10000 for 0.0001 and analyzes improvement.
-#### Q2: Accuracy vs. Iterations (10 pts)
+#### Q2: Accuracy vs. Iterations
 - Task: Plot training and validation accuracy over iterations for learning rates (100, 0.1, 0.001, 0.00001).
 - Objective: Observe the effect of different learning rates on model convergence.
-#### Q3: Loss vs. Iterations (10 pts)
+#### Q3: Loss vs. Iterations
 - Task: Plot average training and validation loss over iterations for the same learning rates as in Q2.
 - Objective: Compare accuracy trends to loss trends to understand model behavior.
-#### Q4: Accuracy vs. Learning Rate (10 pts)
+#### Q4: Accuracy vs. Learning Rate 
 - Task: Plot validation accuracy for all learning rates that did not cause overflow.
 - Objective: Identify the learning rate with the best validation performance.
 #### Q5: Test Accuracy for Best Learning Rate (5 pts)
 - Task: Evaluate the test dataset using the best learning rate identified in Q4.
-#### Q6: Batch Size Optimization (10 pts)
+#### Q6: Batch Size Optimization
 - Task: Experiment with batch sizes (4, 8, 16, 32, 64).
 - Analysis: Plot validation accuracy for each batch size to determine the best-performing size.
-#### Q7: L2 Regularization (10 pts)
+#### Q7: L2 Regularization 
 - Task: Add L2 regularization to the gradient descent implementation.
 - Analysis: Evaluate the effect of regularization on training and validation accuracy for different λ values.
 - Objective: Identify if regularization improves performance and recommend its usage.
-#### Q8: Effect of Data Normalization (10 pts)
+#### Q8: Effect of Data Normalization 
 - Task: Train a model without normalization and compare results.
 - Analysis: Examine training difficulty, required iterations, and best learning rate for unnormalized data.
 - Objective: Plot training and validation accuracy for three learning rates and explain observations.
